@@ -4,7 +4,7 @@ courses = []
 def get_manager_validation(course_price, ask_nicely):
     max_price = MAX_COURSE_PRICE
     if ask_nicely:
-        max_price-=20
+        max_price+=20
     return course_price.isdigit() and int(course_price) <= max_price
 
 
