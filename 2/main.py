@@ -11,8 +11,8 @@ def get_manager_validation(course_price, ask_nicely):
 def main():
     print("Welcome to the Course Registration Systen")
     while True:
-        course_name = input("Enter a course name: ")
-        course_price = input("Enter a course price: ")
+        course_name = input("Enter aa course name: ")
+        course_price = input("Enter aa course price: ")
 
         if get_manager_validation(course_price, ask_nicely=False):
             courses.append(course_name)
