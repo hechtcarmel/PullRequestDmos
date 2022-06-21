@@ -9,7 +9,7 @@ def get_manager_validation(course_price, ask_nicely):
 
 
 def main():
-    print("Welcome to the Course Registration System")
+    print("Welcome to the Course Registration Systen")
     while True:
         course_name = input("Enter the course name: ")
         course_price = input("Enter the course price: ")
